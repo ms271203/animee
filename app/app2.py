@@ -1,5 +1,8 @@
 import streamlit as st
+import sys
+import os
 from pipeline.pipeline import AnimeRecommendationPipeline
+
 from dotenv import load_dotenv
 from utils.bgimage import set_background
 
